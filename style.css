@@ -1,16 +1,19 @@
 /* Estilo general para Ética */
 body {
-    background-color: #f4f4f9; /* Suave gris claro */
+    background-color: #f4f4f9;
+    /* Suave gris claro */
     font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: #4e342e; /* Marrón oscuro */
+    color: #4e342e;
+    /* Marrón oscuro */
 }
 
 /* Estilo para el acordeón */
 .accordion-header {
-    background-color: #6d4c41; /* Marrón chocolate */
+    background-color: #6d4c41;
+    /* Marrón chocolate */
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -19,16 +22,20 @@ h1 {
 
 .accordion-button:not(.collapsed) {
     color: white;
-    background-color: #8d6e63; /* Marrón suave */
+    background-color: #8d6e63;
+    /* Marrón suave */
     border: none;
 }
 
 .accordion-body {
-    background-color: #fff; /* Fondo blanco */
-    border: 1px solid #ccc; /* Borde gris claro */
+    background-color: #fff;
+    /* Fondo blanco */
+    border: 1px solid #ccc;
+    /* Borde gris claro */
     border-radius: 5px;
     padding: 15px;
-    color: #424242; /* Gris oscuro */
+    color: #424242;
+    /* Gris oscuro */
 }
 
 /* Estilo para las imágenes de los temas */
@@ -37,20 +44,23 @@ h1 {
     background-position: center;
     height: 400px;
     border-radius: 5px;
-    border: 2px solid #8d6e63; /* Borde marrón suave */
+    border: 2px solid #8d6e63;
+    /* Borde marrón suave */
     margin-bottom: 15px;
 }
 
 /* Estilo para los enlaces "Saber más" */
 .subtema-mas {
     font-size: 1.2rem;
-    color: #558b2f; /* Verde olivo */
+    color: #558b2f;
+    /* Verde olivo */
     cursor: pointer;
 }
 
 .subtema-mas:hover {
     text-decoration: underline;
-    color: #33691e; /* Verde más oscuro */
+    color: #33691e;
+    /* Verde más oscuro */
 }
 
 /* Estilo para información desplegable */
@@ -58,7 +68,58 @@ h1 {
     display: none;
     margin-top: 10px;
     font-size: 1.2rem;
-    color: #616161; /* Gris medio */
-    border-left: 3px solid #8d6e63; /* Línea indicativa marrón */
+    color: #616161;
+    /* Gris medio */
+    border-left: 3px solid #8d6e63;
+    /* Línea indicativa marrón */
     padding-left: 10px;
+}
+
+
+/* Footer general */
+.footer {
+    background-color: #2c2c2c;
+    /* Fondo oscuro */
+    color: #fff;
+    /* Texto blanco */
+}
+
+.footer a {
+    color: #a8dadc;
+    /* Color suave para enlaces */
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #457b9d;
+    /* Cambio de color al pasar el cursor */
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Espaciado entre columnas */
+.footer .row>div {
+    margin-bottom: 20px;
+}
+
+/* Íconos sociales */
+.footer .bi {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer .bi:hover {
+    transform: scale(1.2);
+    /* Aumenta el tamaño */
+    color: #e63946;
+    /* Rojo claro al pasar el cursor */
+}
+
+/* Separador */
+.footer hr {
+    margin: 20px 0;
+    border-color: #474747;
 }

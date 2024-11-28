@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contenido de la Materia</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container my-5">
         <h1 class="text-center mb-4">Contenido de la Materia</h1>
@@ -16,26 +19,32 @@
             <!-- Tema 1 -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="tema1Heading">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tema1" aria-expanded="true" aria-controls="tema1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tema1"
+                        aria-expanded="true" aria-controls="tema1">
                         Tema 1: Introducción a la Materia
                     </button>
                 </h2>
-                <div id="tema1" class="accordion-collapse collapse show" aria-labelledby="tema1Heading" data-bs-parent="#materiaAccordion">
+                <div id="tema1" class="accordion-collapse collapse show" aria-labelledby="tema1Heading"
+                    data-bs-parent="#materiaAccordion">
                     <div class="accordion-body">
-                        <div class="tema-imagen mb-3" style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNiSkRhdwsgfkt_rMRVM4ZbrGklskGCAsrHexIcYGjOrIx1d_BoJ9Ntu7WpOoXWNHX-_oL4trAIkboosM-PD8qbLXxs2OKjux0srXycs7s2v4GEc7mMAaWhxWKVl7Pq7oaj-wQcT-wG7M4/w1200-h630-p-k-no-nu/QUE_ES_LA_ETICA.webp');"></div>
+                        <div class="tema-imagen mb-3"
+                            style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNiSkRhdwsgfkt_rMRVM4ZbrGklskGCAsrHexIcYGjOrIx1d_BoJ9Ntu7WpOoXWNHX-_oL4trAIkboosM-PD8qbLXxs2OKjux0srXycs7s2v4GEc7mMAaWhxWKVl7Pq7oaj-wQcT-wG7M4/w1200-h630-p-k-no-nu/QUE_ES_LA_ETICA.webp');">
+                        </div>
                         <ul>
                             <li>
                                 Subtema 1.1: Definiciones básicas
                                 <span class="subtema-mas" onclick="mostrarInfo(this)">Saber más</span>
                                 <div class="subtema-info">
-                                    Aquí puedes incluir más información sobre las definiciones básicas. Explica conceptos clave con detalle.
+                                    Aquí puedes incluir más información sobre las definiciones básicas. Explica
+                                    conceptos clave con detalle.
                                 </div>
                             </li>
                             <li>
                                 Subtema 1.2: Historia y evolución
                                 <span class="subtema-mas" onclick="mostrarInfo(this)">Saber más</span>
                                 <div class="subtema-info">
-                                    Detalla los eventos históricos y cómo ha evolucionado este tema a lo largo del tiempo.
+                                    Detalla los eventos históricos y cómo ha evolucionado este tema a lo largo del
+                                    tiempo.
                                     <ul>
                                         <li>info 1</li>
                                         <li>info 2</li>
@@ -57,13 +66,17 @@
             <!-- Tema 2 -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="tema2Heading">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tema2" aria-expanded="false" aria-controls="tema2">
-                        Tema 2:  Libertad
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#tema2" aria-expanded="false" aria-controls="tema2">
+                        Tema 2: Libertad
                     </button>
                 </h2>
-                <div id="tema2" class="accordion-collapse collapse" aria-labelledby="tema2Heading" data-bs-parent="#materiaAccordion">
+                <div id="tema2" class="accordion-collapse collapse" aria-labelledby="tema2Heading"
+                    data-bs-parent="#materiaAccordion">
                     <div class="accordion-body">
-                        <div class="tema-imagen mb-3" style="background-image: url('https://studentsforliberty.org/wp-content/uploads/2021/01/Libertad-Matias-Recuero-1.jpg');"></div>
+                        <div class="tema-imagen mb-3"
+                            style="background-image: url('https://studentsforliberty.org/wp-content/uploads/2021/01/Libertad-Matias-Recuero-1.jpg');">
+                        </div>
                         <ul>
                             <li>
                                 Subtema 2.1: Principios fundamentales
@@ -94,13 +107,17 @@
             <!-- Tema 3 -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="tema3Heading">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tema3" aria-expanded="false" aria-controls="tema3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#tema3" aria-expanded="false" aria-controls="tema3">
                         Tema 3: Aplicaciones Prácticas
                     </button>
                 </h2>
-                <div id="tema3" class="accordion-collapse collapse" aria-labelledby="tema3Heading" data-bs-parent="#materiaAccordion">
+                <div id="tema3" class="accordion-collapse collapse" aria-labelledby="tema3Heading"
+                    data-bs-parent="#materiaAccordion">
                     <div class="accordion-body">
-                        <div class="tema-imagen mb-3" style="background-image: url('https://i0.wp.com/filosofiaenlared.com/wp-content/uploads/2023/10/estoicismo-ataraxia-tecnologia-conexion-serenidad_digital.jpeg?fit=1024%2C597&ssl=1');"></div>
+                        <div class="tema-imagen mb-3"
+                            style="background-image: url('https://i0.wp.com/filosofiaenlared.com/wp-content/uploads/2023/10/estoicismo-ataraxia-tecnologia-conexion-serenidad_digital.jpeg?fit=1024%2C597&ssl=1');">
+                        </div>
                         <ul>
                             <li>
                                 Subtema 3.1: Proyectos en el mundo real
@@ -130,6 +147,8 @@
         </div>
     </div>
 
+
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
@@ -138,5 +157,40 @@
             info.style.display = info.style.display === "block" ? "none" : "block";
         }
     </script>
+
+<br><br><br><br>
+<footer class="footer bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Sobre nosotros</h5>
+                <p>
+                    Esta página está diseñada para fomentar el aprendizaje y la reflexión en torno a los valores
+                    éticos y la libertad.
+                    Gracias por visitarnos.
+                </p>
+            </div>
+            
+            <div class="col-md-3 text-center">
+                <h5>Síguenos</h5>
+                <a href="#" class="text-white mx-2">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="text-white mx-2">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="#" class="text-white mx-2">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <hr class="border-top border-secondary">
+        <div class="text-center">
+            <p class="mb-0">© 2024 Ética y Valores. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
 </body>
+
 </html>
